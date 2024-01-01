@@ -17,11 +17,11 @@ import pandas as pd
 from datetime import datetime
 from langchain.embeddings import OpenAIEmbeddings
 import openai
-from langchain.vectorstores import FAISS
-from langchain.chains import RetrievalQA
-from langchain.prompts import PromptTemplate
-from langchain.chat_models import ChatOpenAI
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain.vectorstores import FAISS
+# from langchain.chains import RetrievalQA
+# from langchain.prompts import PromptTemplate
+# from langchain.chat_models import ChatOpenAI
+# from langchain.text_splitter import RecursiveCharacterTextSplitter
 from openai import OpenAI
 from .forms import SignUpForm
 from .forms import ChatBotForm
